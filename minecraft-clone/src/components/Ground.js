@@ -10,9 +10,6 @@ export const Ground = () => {
   }));
 
   //   make the ground texture repeat 100 times in both directions
-  groundTexture.magFilter = NearestFilter;
-  groundTexture.wrapS = RepeatWrapping;
-  groundTexture.wrapT = RepeatWrapping;
   groundTexture.repeat.set(100, 100);
 
   return (
