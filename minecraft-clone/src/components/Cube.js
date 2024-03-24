@@ -4,7 +4,7 @@ import { useStore } from "../hooks/useStore";
 
 // Cube component
 
-export const Cube = ({ key, position, texture }) => {
+export const Cube = ({ position, texture }) => {
   const [ref] = useBox(() => ({
     type: "Static",
     position,
